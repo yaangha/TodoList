@@ -3,6 +3,7 @@ import TodoInsert from "./components/TodoInsert.js";
 import TodoListAll from "./components/TodoListAll.js";
 import mainStyle from "./styles/main.module.css";
 import './App.css';
+import Calendar from "./components/Calendar.js";
 
 function App() {
   const [todos, setTodos] = useState([]);
@@ -31,7 +32,8 @@ function App() {
 
   return (
     <div className={mainStyle.main_box}>
-      <h3>To Do List!</h3>
+      <h3>오늘 할 일을 적어보세요!</h3>
+      <Calendar/>
       <TodoInsert onSubmit={handleSubmit}/>
       <TodoListAll todos={todos} onRemove={onRemove} onToggle={onToggle}/>
     </div>
