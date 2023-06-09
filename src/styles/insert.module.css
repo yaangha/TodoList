@@ -1,0 +1,20 @@
+.span_box {
+    display: block;
+    border-bottom: thin solid black;
+    padding: 3px;
+    margin-bottom: 50px;
+}
+
+.input_box {
+    border: none;
+    outline: none;
+    font-size: 25px;
+    width: 93%;
+    background: none;
+}
+
+.add_button {
+    border: none;
+    background: none;
+    font-size: 21px;
+}

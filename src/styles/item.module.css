@@ -1,0 +1,26 @@
+.main_box {
+    margin: 15px 0;
+}
+
+.done_button {
+    display: inline-block;
+    border: none;
+    background: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.text_box {
+    display: inline-block;
+    width: 87%;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.delete_button {
+    display: inline-block;
+    border: none;
+    background: none;
+    font-size: 25px;
+    vertical-align: middle;
+}

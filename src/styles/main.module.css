@@ -1,0 +1,9 @@
+.main_box {
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    min-height: 750px;
+    border: 10px solid #354649;
+    border-radius: 15px;
+
+}
