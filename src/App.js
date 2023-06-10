@@ -32,8 +32,8 @@ function App() {
 
   return (
     <div className={mainStyle.main_box}>
-      <h3>오늘 할 일을 적어보세요!</h3>
       <Calendar/>
+      <h3>📍 To Do List</h3>
       <TodoInsert onSubmit={handleSubmit}/>
       <TodoListAll todos={todos} onRemove={onRemove} onToggle={onToggle}/>
     </div>

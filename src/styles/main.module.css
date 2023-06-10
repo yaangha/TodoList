@@ -3,7 +3,8 @@
     margin: auto;
     padding: 20px;
     min-height: 750px;
-    border: 10px solid #354649;
+    border: 5px solid black;
     border-radius: 15px;
-
+    box-shadow: 1px 1px 1px black;
+    background: #E0E7E9;
 }

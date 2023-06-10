@@ -1,4 +1,6 @@
 body {
     font-family: 'nanumsquare';
-    background: #E0E7E9;
+    /* background: #E0E7E9; */
+    background-image: url( "/Users/YANGHAEUN/practice/todo_list/public/images/bg.JPG" );
+    background-size: cover;
 }

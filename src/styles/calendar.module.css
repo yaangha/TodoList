@@ -1,0 +1,20 @@
+.main_box {
+    margin: 10px 0;
+}
+
+.year {
+    font-size: 36px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.month {
+    font-size: 36px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.day {
+    font-size: 36px;
+    font-weight: bold;
+}
