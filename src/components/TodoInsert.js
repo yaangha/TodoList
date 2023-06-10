@@ -20,7 +20,7 @@ function TodoInsert(props) {
         <div>
             <form>
                 <span className={props.isMobile ? insertStyle.span_mobile : insertStyle.span_box}>
-                    <input value={content} onChange={handleChange} className={props.isMobile ? insertStyle.input_mobile : insertStyle.input_box} type="text" placeholder="plz, write here." autoFocus/>
+                    <input value={content} onChange={handleChange} className={props.isMobile ? insertStyle.input_mobile : insertStyle.input_box} type="text" placeholder="오늘 할 일은?" autoFocus/>
                     <button className={props.isMobile ? insertStyle.button_mobile : insertStyle.add_button} type="submit" onClick={handleSubmit}><FaPencilAlt/></button>
                 </span>
             </form>
