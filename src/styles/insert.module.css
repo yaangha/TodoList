@@ -30,8 +30,8 @@
 .input_mobile {
     border: none;
     outline: none;
-    font-size: 21px;
-    width: 85%;
+    font-size: 18px;
+    width: 80%;
     background: none;
 }
 
@@ -40,4 +40,5 @@
     background: none;
     font-size: 18px;
     float: right;
+    color: black;
 }
