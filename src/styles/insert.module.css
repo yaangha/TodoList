@@ -34,3 +34,10 @@
     width: 85%;
     background: none;
 }
+
+.button_mobile {
+    border: none;
+    background: none;
+    font-size: 18px;
+    float: right;
+}
