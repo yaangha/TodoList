@@ -4,8 +4,12 @@ import TodoListAll from "./components/TodoListAll.js";
 import mainStyle from "./styles/main.module.css";
 import './App.css';
 import Calendar from "./components/Calendar.js";
+import { useMediaQuery } from "react-responsive";
+
 
 function App() {
+  const isMobile = useMediaQuery({ query:"(max-width:768px)" }); // 768px 이하이면 ture, 이상이면 false
+
   const [todos, setTodos] = useState([]);
   const nextId = useRef(0);
   const handleSubmit = (text) => {
@@ -31,11 +35,11 @@ function App() {
   }
 
   return (
-    <div className={mainStyle.main_box}>
+    <div className={isMobile ? mainStyle.main_mobile : mainStyle.main_box}>
       <Calendar/>
       <h3>📍 To Do List</h3>
-      <TodoInsert onSubmit={handleSubmit}/>
-      <TodoListAll todos={todos} onRemove={onRemove} onToggle={onToggle}/>
+      <TodoInsert onSubmit={handleSubmit} isMobile={isMobile}/>
+      <TodoListAll todos={todos} onRemove={onRemove} onToggle={onToggle} isMobile={isMobile}/>
     </div>
   );
 }

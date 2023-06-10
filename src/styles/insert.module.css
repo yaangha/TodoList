@@ -18,3 +18,19 @@
     background: none;
     font-size: 21px;
 }
+
+/* Mobile css */
+.span_mobile {
+    display: block;
+    border-bottom: thin solid black;
+    padding: 3px;
+    margin-bottom: 50px;
+}
+
+.input_mobile {
+    border: none;
+    outline: none;
+    font-size: 21px;
+    width: 85%;
+    background: none;
+}

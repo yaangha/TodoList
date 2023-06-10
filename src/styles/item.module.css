@@ -24,3 +24,18 @@
     font-size: 25px;
     vertical-align: middle;
 }
+
+.button_mobile {
+    display: inline-block;
+    border: none;
+    background: none;
+    font-size: 21px;
+    vertical-align: middle;
+}
+
+.text_mobile {
+    display: inline-block;
+    width: 78%;
+    padding-left: 10px;
+    font-size: 21px;
+}

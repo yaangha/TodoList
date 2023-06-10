@@ -8,3 +8,10 @@
     box-shadow: 1px 1px 1px black;
     background: #E0E7E9;
 }
+
+/* Mobile css */
+.main_mobile {
+    padding: 10px;
+    background: #E0E7E9;
+    min-height: 635px;
+}
