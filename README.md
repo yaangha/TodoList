@@ -7,5 +7,5 @@
 * CSS
 * VSCode
 
-## 구현 기능
+## 링크
 <https://yaangha.github.io/TodoList/>
